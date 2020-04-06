@@ -1,0 +1,83 @@
+.Navbar {
+  top: 0px;
+  left: 0px;
+  width: 1366px;
+  height: 56px;
+  border: 1px solid black;
+  border-style: hidden;
+  box-shadow: 0 -2px 3px;
+  display: flex;
+
+  .menu-logo {
+    width: 300px;
+    height: 56px;
+    display: inline-flex;
+
+    div {
+      width: 60px;
+      height: 56px;
+      box-sizing: border-box;
+      margin: 0 10px;
+
+      &:first-child {
+        padding: 15px 15px 8px 15px;
+      }
+      &:last-child {
+        padding: 13px 5px;
+      }
+    }
+  }
+
+  .nav-links {
+    height: 56px;
+    width: 716px;
+    display: inline-flex;
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      height: 56px;
+      display: inline-block;
+      list-style-type: none;
+      box-sizing: border-box;
+      padding: 13px 0 7px 0;
+      margin: 0 25px;
+      color: #707070;
+      font-size: 20px;
+      font-family: "AcuminPro-Regular", "Acumin Pro";
+
+      &:first-child {
+        border-top: 2px solid black;
+        color: black;
+        border-style: hidden;
+        border-bottom: 4px solid #fc9d21;
+      }
+    }
+  }
+  .notification {
+    width: 350px;
+    height: 56px;
+    display: inline-flex;
+
+    div {
+      width: 50px;
+      height: 56px;
+      box-sizing: border-box;
+      padding: 15px 1px 0 1px;
+      margin: 0 5px;
+
+      &:nth-child(2) {
+        padding: 6px 1px 0 1px;
+      }
+      &:last-child {
+
+        img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+}
