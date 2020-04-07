@@ -1,11 +1,11 @@
 import React from "react";
-import logo from "../../assets/logo.svg";
-import menu from "../../assets/Icon-material-menu.svg";
-import bell from "../../assets/bell.svg";
-import search from "../../assets/Icon-feather-search.svg";
-import lens from "../../assets/Icon-material-color-lens.svg";
-import plus from "../../assets/plus.svg";
-import user from "../../assets/user.svg";
+import logo from "../../assets/navbar/logo.svg";
+import menu from "../../assets/navbar/Icon-material-menu.svg";
+import bell from "../../assets/navbar/bell.svg";
+import search from "../../assets/navbar/Icon-feather-search.svg";
+import lens from "../../assets/navbar/Icon-material-color-lens.svg";
+import plus from "../../assets/navbar/plus.svg";
+import user from "../../assets/navbar/user.svg";
 
 import "./navbar.styles.scss";
 
